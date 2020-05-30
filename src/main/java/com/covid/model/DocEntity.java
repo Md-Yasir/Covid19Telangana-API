@@ -25,16 +25,22 @@ public class DocEntity {
 	
 	@Column(name = "phno")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	private long phno;
 	
 	@Column(name = "altphno")
 	private long altphno;
+<<<<<<< HEAD
 =======
 	private int phno;
 	
 	@Column(name = "altphno")
 	private int altphno;
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	
 	@Column(name = "email")
 	private String email;
@@ -47,10 +53,14 @@ public class DocEntity {
 	
 	@Column(name = "appointmentdatetime", unique = true)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", timezone = "Asia/kolkata")
 =======
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", timezone = "Asia/kolkata"		)
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", timezone = "Asia/kolkata")
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	@Temporal(TemporalType.TIMESTAMP)
 	Date appointmentdatetime;
 
@@ -71,6 +81,9 @@ public class DocEntity {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	public long getPhno() {
 		return phno;
 	}
@@ -84,6 +97,7 @@ public class DocEntity {
 	}
 
 	public void setAltphno(long altphno) {
+<<<<<<< HEAD
 =======
 	public int getPhno() {
 		return phno;
@@ -99,6 +113,8 @@ public class DocEntity {
 
 	public void setAltphno(int altphno) {
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 		this.altphno = altphno;
 	}
 

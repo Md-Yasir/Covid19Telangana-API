@@ -10,12 +10,17 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 @RestController
 <<<<<<< HEAD
+<<<<<<< HEAD
 @CrossOrigin("https://covid19telangana.herokuapp.com")
 //@CrossOrigin
 =======
 @CrossOrigin
 
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+@CrossOrigin("https://covid19telangana.herokuapp.com")
+//@CrossOrigin
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 public class UserController {
 
 	@Autowired

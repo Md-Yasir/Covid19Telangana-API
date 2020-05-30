@@ -50,6 +50,9 @@ public class PassEntity {
 	@Column(name = "route")
 	private String route;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 
 	public long getId() {
 		return id;
@@ -154,6 +157,7 @@ public class PassEntity {
 	public void setRoute(String route) {
 		this.route = route;
 	}
+<<<<<<< HEAD
 =======
 	
 	public long getId() {
@@ -199,6 +203,8 @@ public class PassEntity {
 		this.destination = destination;
 	}
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	
 	
 }

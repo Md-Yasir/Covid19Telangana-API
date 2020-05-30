@@ -19,16 +19,22 @@ public class VolEntity {
 
 	@Column(name = "phno")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	private long phno;
 
 	@Column(name = "altphno")
 	private long altphno;
+<<<<<<< HEAD
 =======
 	private int phno;
 
 	@Column(name = "altphno")
 	private int altphno;
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 
 	@Column(name = "fname")
 	private String fname;
@@ -36,11 +42,17 @@ public class VolEntity {
 	@Column(name = "address")
 	private String address;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	@Column(name = "aadhaar")
 	private long aadhaar;
 =======
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+	
+	@Column(name = "aadhaar")
+	private long aadhaar;
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 
 	@Column(name = "email")
 	private String email;
@@ -65,6 +77,9 @@ public class VolEntity {
 		this.name = name;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	public long getPhno() {
 		return phno;
 	}
@@ -75,6 +90,7 @@ public class VolEntity {
 		return altphno;
 	}
 	public void setAltphno(long altphno) {
+<<<<<<< HEAD
 =======
 	public int getPhno() {
 		return phno;
@@ -87,6 +103,8 @@ public class VolEntity {
 	}
 	public void setAltphno(int altphno) {
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 		this.altphno = altphno;
 	}
 	public String getFname() {
@@ -120,6 +138,9 @@ public class VolEntity {
 		this.age = age;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 	public long getAadhaar() {
 		return aadhaar;
 	}
@@ -128,9 +149,12 @@ public class VolEntity {
 	}
 
 	
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> e7b7898c0c1f25d16984783adf47ed28a222fa98
+=======
+>>>>>>> d72ccfedf7fb15617896fd79dc4283756af45bec
 
 }
